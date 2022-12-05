@@ -10,7 +10,7 @@ export class AppComponent implements OnInit {
   public chips: string[] = ['chip 1', 'chip 2', 'chip 3'];
 
   toggle(event: MatButtonToggleChange) {
-    console.log(event);
+    console.log(event.value);
   }
 
   removeChip(chip: string) {
